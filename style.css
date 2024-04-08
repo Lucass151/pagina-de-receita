@@ -1,0 +1,319 @@
+body {
+  background-color: rgba(255, 228, 196, 0.904);
+  font-family: 65.5%;
+}
+
+/* Font título*/
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url(YoungSerif-Regular.ttf);
+}
+
+.Young-Serif-Regular {
+  font-family: "YoungSerif-Regular";
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+  margin-left: 0.7rem;
+  padding: 0rem;
+}
+
+/* Font Parágrafo*/
+@font-face {
+  font-family: "Outfit";
+  src: url(Outfit-VariableFont_wght.ttf);
+}
+
+.Outfit {
+  font-family: "Outfit";
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  margin-left: 0.7rem;
+  padding: 0rem;
+}
+
+/* Container principal*/
+.container {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  max-width: 25rem;
+  min-height: 80rem;
+  position: relative;
+  margin: 4rem auto;
+  padding: 1.5rem 2.9rem 1.5rem 2.9rem;
+}
+
+/* Imagem*/
+img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 23rem;
+  margin-left: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+/* Container - Tempo de preparação*/
+.container2 {
+  background-color: rgba(255, 236, 242, 0.938);
+  border-radius: 0.5rem;
+  max-width: 25rem;
+  min-height: 8.5rem;
+  margin-left: 0.4rem;
+}
+
+/* Título h2 Tempo de preparação */
+.Outfit h2 {
+  font-size: 1rem;
+  padding: 0rem;
+  color: #640541;
+  padding: 1.1rem 0rem 0rem 0.2rem;
+}
+
+/* Bullets Tempo de preparação */
+li::marker {
+  color: #640541;
+}
+
+/* Separação lista Tempo de preparação */
+li {
+  margin-top: 0.4rem;
+}
+
+/* Título 3 - Ingredientes */
+.Young-Serif-Regular h3 {
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+  margin-left: 0rem;
+  padding: 0rem;
+  color: #8b4513;
+  font-weight: normal;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+/* Lista ingredientes */
+
+.Ingredientes li::marker {
+  color: #8b4513;
+}
+
+.Ingredientes ul {
+  padding-left: 2rem;
+}
+
+#linha {
+  border: 0.1rem solid #d3d3d3;
+}
+
+/* Instruções */
+
+.Instruções li::marker {
+  color: #8b4513;
+}
+
+.Instruções ol {
+  padding-left: 2rem;
+}
+
+#linha {
+  border: 0.1rem solid #d3d3d3;
+}
+
+/* Título 4 - Nutrição */
+.Young-Serif-Regular h4 {
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+  margin-left: 0rem;
+  padding: 0rem;
+  color: #8b4513;
+  font-weight: normal;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+.Outfit {
+  font-family: "Outfit";
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  margin-left: 0.7rem;
+  padding: 0rem;
+}
+
+#Calorias,
+.Calorias {
+  display: inline-block;
+}
+
+#Calorias {
+  margin: 0;
+  padding: 0rem 0 0 5rem;
+}
+
+.Calorias {
+  padding: 0rem 0 0 1rem;
+}
+
+#Carboidratos,
+.Carboidratos {
+  display: inline-block;
+}
+
+.Carboidratos {
+  padding: 0rem 0 0 0.9rem;
+}
+
+#Carboidratos {
+  margin: 0;
+  padding: 0 0 0 2.6rem;
+}
+
+.Proteina {
+  padding: 0rem 0 0 1rem;
+}
+
+#Proteina,
+.Proteina {
+  display: inline-block;
+}
+
+#Proteina {
+  margin: 0;
+  padding: 0 0 0 4.2rem;
+}
+
+.Gordura {
+  padding: 0rem 0 0 0.9rem;
+}
+
+#Gordura,
+.Gordura {
+  display: inline-block;
+}
+
+#Gordura {
+  margin: 0;
+  padding: 0 0 0 4.2rem;
+}
+
+@media (min-width: 300px) /* Imagem*/ {
+  /* Imagem*/
+  img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin-left: 0rem;
+    border-radius: 0.5rem;
+  }
+
+  /* Container principal*/
+  .container {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    max-width: 25rem;
+    min-height: 80rem;
+    position: relative;
+    margin: 4rem auto;
+    padding: 2rem 2rem 2rem 1.2rem;
+  }
+
+  .Young-Serif-Regular {
+    font-family: "YoungSerif-Regular";
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.1rem;
+    padding: 0rem;
+  }
+
+  .Outfit {
+    font-family: "Outfit";
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    margin-left: 0.1rem;
+    padding: 0rem;
+  }
+
+  /* Container - Tempo de preparação*/
+  .container2 {
+    background-color: rgba(255, 236, 242, 0.938);
+    border-radius: 0.5rem;
+    max-width: 25rem;
+    min-height: 8.5rem;
+    margin-left: 0.1rem;
+  }
+
+  /* Título h2 Tempo de preparação */
+  .Outfit h2 {
+    font-size: 1rem;
+    padding: 0rem;
+    color: #640541;
+    padding: 1.1rem 0rem 0rem 1rem;
+  }
+
+  /* Bullets Tempo de preparação */
+  li::marker {
+    color: #640541;
+  }
+
+  /* Separação lista Tempo de preparação */
+  li {
+    margin-top: 0.2rem;
+  }
+
+  /* Título 3 - Ingredientes */
+  .Young-Serif-Regular h3 {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    padding: 0rem;
+    color: #8b4513;
+    font-weight: normal;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+  }
+
+  /* Lista ingredientes */
+
+  .Ingredientes li::marker {
+    color: #8b4513;
+  }
+
+  .Ingredientes ul {
+    padding-left: 1.5rem;
+  }
+
+  #linha {
+    border: 0.1rem solid #d3d3d3;
+  }
+
+  /* Instruções */
+
+  .Instruções li::marker {
+    color: #8b4513;
+  }
+
+  .Instruções ol {
+    padding-left: 1.5rem;
+  }
+
+  #linha {
+    border: 0.1rem solid #d3d3d3;
+  }
+
+  /* Título 4 - Nutrição */
+  .Young-Serif-Regular h4 {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    padding: 0rem;
+    color: #8b4513;
+    font-weight: normal;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+  }
+
+  .Outfit {
+    font-family: "Outfit";
+    font-size: 1rem;
+    margin: 0.8rem 0rem 0rem 0rem;
+    padding: 0rem;
+  }
+}
